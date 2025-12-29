@@ -59,15 +59,21 @@ webmaster_verifications:
 # The end of `jekyll-seo-tag` settings
 
 # Web Analytics Settings
+#analytics:
+#  umami:
+#    id: 02218faf-eb85-4671-8d7a-fa56c6b15017
+#    domain: https://cloud.umami.is
 analytics:
-  umami:
-    id: 02218faf-eb85-4671-8d7a-fa56c6b15017
-    domain: https://cloud.umami.is
+  goatcounter:
+    id: 0xhouda
+
+pageviews:
+  provider: goatcounter
 
 
 # Page views settings
-pageviews:
-  provider: # now only supports 'goatcounter'
+#pageviews:
+#  provider: # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
@@ -130,9 +136,9 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: false # The option for PWA feature (installable)
+  enabled: true # The option for PWA feature (installable)
   cache:
-    enabled: false # The option for PWA offline cache
+    enabled: true # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
