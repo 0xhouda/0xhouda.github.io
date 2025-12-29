@@ -17,32 +17,32 @@ Flag format Flag{pairs}
 
 After downloading and unzipping the file, you will find a disk image named filesystem.dd. I used FTK Imager to mount it, but no files were found
 
-![Image](assets/lib/img/4/4_1.jpg)
+![Image](assets/img/4/4_1.jpg)
 
 after a long time and a lot of search if you use a binwalk command you can found a lot of png file
 
-![Image](assets/lib/img/4/4_2.jpg)
+![Image](assets/img/4/4_2.jpg)
 
 # This challenge took me a lot of time because I initially tried to extract these files using the “foremost” command, as there were a huge number of images. So I started thinking of an alternative solution.
 
-![Image](assets/lib/img/4/4_3.jpg)
+![Image](assets/img/4/4_3.jpg)
 
 from this photo you can show a huge number of png file, So I started thinking if this disk image is Corrupted
 
 use a file command :
 
-![Image](assets/lib/img/4/4_4.jpg)
+![Image](assets/img/4/4_4.jpg)
 
 you can show this image is a FAT16
 Let’s find tools for repairing or recovering data from corrupted FAT16 disks.
 Okay i found tool to fix it `fsck.ext3`
 
-![Image](assets/lib/img/4/4_5.jpg)
+![Image](assets/img/4/4_5.jpg)
 
 As expected, the file was corrupted.
 Once it’s fixed, you can open it with FTK or mount it on Linux.
 
-![Image](assets/lib/img/4/4_6.jpg)
+![Image](assets/img/4/4_6.jpg)
 
 Alright, the file has been successfully repaired, and the files on the hard drive can now be browsed. There’s also an interesting file named “solution”—you can save it to your device and start working on it.
 
@@ -50,11 +50,11 @@ Once again, there are more than 200 images, each containing only two numbers. Ho
 
 After doing some research and checking whether any image contained steganographic data, I ran exiftool and found an interesting User Comment field
 
-![Image](assets/lib/img/4/4_7.jpg)
+![Image](assets/img/4/4_7.jpg)
 
 After repeating this process on a set of images, I found that the User Comment is actually the MD5 hash of the next image in the correct sequence—until you collect the 20 images that contain the flag. The last one has a User Comment that says “Next Nowhere.”
 
-![Image](assets/lib/img/4/4_8.jpg)
+![Image](assets/img/4/4_8.jpg)
 
 But if I keep repeating this process manually, it would be difficult and prone to errors. So, with the help of AI, I wrote a Python script that automates the whole process and extracts the 20 images that contain the flag.
 
