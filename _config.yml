@@ -60,8 +60,9 @@ webmaster_verifications:
 
 # Web Analytics Settings
 analytics:
-#  umami:
-#    id: 02218faf-eb85-4671-8d7a-fa56c6b15017
+  umami:
+    id: 02218faf-eb85-4671-8d7a-fa56c6b15017
+    domain: https://0xhouda.github.io   # مع https وبالضبط كده
 
 # Page views settings
 pageviews:
