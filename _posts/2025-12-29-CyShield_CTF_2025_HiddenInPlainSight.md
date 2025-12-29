@@ -32,8 +32,8 @@ uv run flare-wmi/python-cim/samples/ui.py win7 Repository/
 
 ```
 
-![Image](assets/img/3/3_1.jpg)
-![Image](assets/img/3/3_2.jpg)
+![Image](assets/lib/img/3/3_1.jpg)
+![Image](assets/lib/img/3/3_2.jpg)
 
 
 let’s go to decrypt encoded command by python script

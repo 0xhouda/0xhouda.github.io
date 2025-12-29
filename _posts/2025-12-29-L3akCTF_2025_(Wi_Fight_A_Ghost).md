@@ -6,13 +6,13 @@ tags: [Disk_Forensics, Medium,]
 toc: true
 ---
 
-![Image](assets/img/6/6_1.jpg)
+![Image](assets/lib/img/6/6_1.jpg)
 
 After download artifact from this [link](https://drive.google.com/file/d/1eP6wWmbFaBNTNa2IxNHPDIuyN1gXyBCz/view)
 
 connect to server to get question
 
-![Image](assets/img/6/6_2.jpg)
+![Image](assets/lib/img/6/6_2.jpg)
 
 ## Q1: What was the ComputerName of the device?
 
@@ -26,7 +26,7 @@ use RegRipper tool to analysis SYSTEM hive Register and search in result file to
 
 from winvet Logs file you can found called `Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx` this file included a logs related to Wi-Fi connection and setting sort event by time to get answer
 
-![Image](assets/img/6/6_3.jpg)
+![Image](assets/lib/img/6/6_3.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -34,13 +34,13 @@ from winvet Logs file you can found called `Microsoft-Windows-WLAN-AutoConfig%4O
 
 back to result you got it from RegRipper and search by SSID
 
-![Image](assets/img/6/6_4.jpg)
+![Image](assets/lib/img/6/6_4.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q4: What IP address was assigned at the first café?
 
-![Image](assets/img/6/6_5.jpg)
+![Image](assets/lib/img/6/6_5.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -48,11 +48,11 @@ back to result you got it from RegRipper and search by SSID
 
 check browser database from this path `C\Users\NotVi\AppData\Local\Microsoft\Edge\User Data\Default`
 
-![Image](assets/img/6/6_6.jpg)
+![Image](assets/lib/img/6/6_6.jpg)
 
 ## Q6: What did they download at the first café?
 
-![Image](assets/img/6/6_7.jpg)
+![Image](assets/lib/img/6/6_7.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -60,7 +60,7 @@ check browser database from this path `C\Users\NotVi\AppData\Local\Microsoft\Edg
 
 open “ntuser.dat” by Registry Explorer
 
-![Image](assets/img/6/6_8.jpg)
+![Image](assets/lib/img/6/6_8.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -79,7 +79,7 @@ MFTECmd.exe -f path\to\MFT\file --csv path\to\output\file\ --dr
 
 in output file you can show file called “Resident” search in file on “HowToHackTheWorld.txt”
 
-![Image](assets/img/6/6_9.jpg)
+![Image](assets/lib/img/6/6_9.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -87,19 +87,19 @@ in output file you can show file called “Resident” search in file on “HowT
 
 back to result you got it from RegRipper
 
-![Image](assets/img/6/6_10.jpg)
+![Image](assets/lib/img/6/6_10.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q10:When did they obtain the second lease?
 
-![Image](assets/img/6/6_11.jpg)
+![Image](assets/lib/img/6/6_11.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q11:What was the IP address assigned at the second café?
 
-![Image](assets/img/6/6_12.jpg)
+![Image](assets/lib/img/6/6_12.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -107,7 +107,7 @@ back to result you got it from RegRipper
 
 check Chrome database from this path `C\Users\NotVi\AppData\Local\Google\Chrome\User Data\Default`
 
-![Image](assets/img/6/6_13.jpg)
+![Image](assets/lib/img/6/6_13.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -115,7 +115,7 @@ check Chrome database from this path `C\Users\NotVi\AppData\Local\Google\Chrome\
 
 back to Q2 file
 
-![Image](assets/img/6/6_14.jpg)
+![Image](assets/lib/img/6/6_14.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -123,13 +123,13 @@ back to Q2 file
 
 google is your friends search to AllyCat coffee pleace
 
-![Image](assets/img/6/6_15.jpg)
+![Image](assets/lib/img/6/6_15.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## flag 
 
-![Image](assets/img/6/6_16.jpg)
+![Image](assets/lib/img/6/6_16.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 

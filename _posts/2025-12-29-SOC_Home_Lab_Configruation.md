@@ -9,6 +9,6 @@ toc: true
 
 Built a full SOC Home Lab to simulate AD & Web App attacks and detect them in real time using Splunk dashboards, alerts, and custom SPL rules.
 
-<iframe src="/assets/doc/SOC_Home_Lab.pdf" width="100%" height="1000px">
-This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/SOC_Home_Lab.pdf">Download PDF</a>.
+<iframe src="/assets/lib/doc/SOC_Home_Lab.pdf" width="100%" height="1000px">
+This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/lib/SOC_Home_Lab.pdf">Download PDF</a>.
 </iframe>
