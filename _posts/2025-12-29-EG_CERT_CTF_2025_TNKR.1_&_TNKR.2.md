@@ -2,7 +2,7 @@
 title: "EG_CERT_CTF_2025_TNKR.1_&_TNKR.2"
 date: 2025-12-28 00:00:00
 categories: [CTF_competitions]
-tags: [Disk_Forensics, Medium, [Event_logs]]
+tags: [Disk_Forensics, Medium, Event_logs]
 toc: true
 ---
 
