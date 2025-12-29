@@ -49,7 +49,7 @@ url → https://download.informer.com/win-1192693607-c5308488-66c7422f-27868c05d
 
 convert to sha1
 
-# @_&nbsp; 4621cdc24718ed95bd6271e26b0e28307f159b32
+## ✅ Answer 4621cdc24718ed95bd6271e26b0e28307f159b32
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -61,9 +61,9 @@ parse $J, $LogFile, $MFT using `ntfs log tracker`
 ![Image](assets/img/2/2_3.jpg)
 
 
-# @_&nbsp; Q3 → ntds.dit
+## ✅ Answer Q3 → ntds.dit
 
-# @_&nbsp; Q4 → DemonSlayer.mp4
+## ✅ Answer Q4 → DemonSlayer.mp4
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -74,9 +74,9 @@ parse $J, $LogFile, $MFT using `ntfs log tracker`
 
 ![Image](assets/img/2/2_3.jpg)
 
-# @_&nbsp; Q5 → MEGA
+## ✅ Answer Q5 → MEGA
 
-# @_&nbsp; Q6 → 2025–09–21 10:50:28
+## ✅ Answer Q6 → 2025–09–21 10:50:28
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 

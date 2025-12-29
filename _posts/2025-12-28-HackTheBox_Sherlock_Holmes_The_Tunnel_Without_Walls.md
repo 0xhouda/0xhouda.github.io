@@ -44,7 +44,7 @@ $ dpkg -x linux-image-5.10.0-35-amd64-dbg_5.10.237-1_amd64.deb .
 
 ## Task1 → What is the Linux kernel version of the provided image?
 
-# @_&nbsp; 5.10.0–35-amd64
+## ✅ Answer 5.10.0–35-amd64
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -189,7 +189,7 @@ However, this is not the final redirection. From the Bash history, you can see t
 ![Image](assets/img/1/1_10_4.jpg)
 ![Image](assets/img/1/1_10_5.jpg)
 
-# @_&nbsp; updates.cogwork-1.net,13.62.49.86:7477
+## ✅ Answer updates.cogwork-1.net,13.62.49.86:7477
 
 ![Image](assets/img/1/1_f.jpg)
 

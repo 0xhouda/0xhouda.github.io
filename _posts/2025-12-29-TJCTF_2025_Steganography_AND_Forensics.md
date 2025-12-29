@@ -51,7 +51,7 @@ after extracting the files you will find a ZIP file protected use password “p0
 
 ![Image](assets/img/7/7_4.jpg)
 
-# @_&nbsp; flag → tjctf{p0lygl0t_r3bb1t_h0l3}
+## ✅ Answer flag → tjctf{p0lygl0t_r3bb1t_h0l3}
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -86,7 +86,7 @@ with DSStore.open(".DS_Store", "r") as d:
 
 ![Image](assets/img/7/7_6.jpg)
 
-# @_&nbsp; flag → tjctf{ds_store_is_useful?}
+## ✅ Answer flag → tjctf{ds_store_is_useful?}
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -102,7 +102,7 @@ in this challenge i am usage stegsolver , strings , pngcheck , exiftool , binwal
 
 ![Image](assets/img/7/7_9.jpg)
 
-# @_&nbsp; flag → tjctf{steganography_is_fun}
+## ✅ Answer flag → tjctf{steganography_is_fun}
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -176,7 +176,7 @@ ok recover audio file successfully but no thing with out noise i am try open fil
 
 ![Image](assets/img/7/7_11.jpg)
 
-# @_&nbsp; flag → tjctf{THIS-EASTER-EGG-IS-PRETTY-COOL}
+## ✅ Answer flag → tjctf{THIS-EASTER-EGG-IS-PRETTY-COOL}
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
