@@ -229,4 +229,9 @@ jekyll-archives:
 
 html_proofer:
   allow-hash-href: true
-  ignore_urls: ['https://drive.google.com', 'https://packages.debian.org', 'https://github.com', 'https://hubchallenges.s3.eu-west-1.amazonaws.com',]
+  ignore_urls:
+    - 'https://drive.google.com'
+    - 'https://packages.debian.org'
+    - 'https://github.com'
+    - 'https://hubchallenges.s3.eu-west-1.amazonaws.com'
+  ignore_internal_hash: true
