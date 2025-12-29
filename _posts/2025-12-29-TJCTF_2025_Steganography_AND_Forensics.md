@@ -3,6 +3,9 @@ title: "TJCTF_2025_Steganography_AND_Forensics"
 date: 2025-12-29 00:00:00
 categories: [CTF_competitions]
 tags: [Steganography, Medium]
+image: 
+  path: /assets/img/7/7_0.jpg
+  in_post: false
 toc: true
 ---
 

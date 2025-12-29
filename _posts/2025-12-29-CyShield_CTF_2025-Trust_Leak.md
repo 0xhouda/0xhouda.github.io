@@ -3,6 +3,9 @@ title: "Trust_Leak_DFIR_Challenge_From_CyCTF{2025}"
 date: 2025-12-28 00:00:00
 categories: [CTF_competitions]
 tags: [Disk_Forensics, Medium]
+image: 
+  path: /assets/img/2/2.jpg
+  in_post: false
 toc: true
 ---
 
@@ -31,7 +34,6 @@ CyCTF{tool_sha1(url)_secret.txt_secret2.txt_tool_YYYY-MM-DD HH:MM:SS}
 
 ![Image](/assets/img/2/2_1.jpg)
 
-
 ## Q2 → What is the SHA-1 hash of the link that was used to drop the executable?
 
 in → C/Users/Administrator/AppData/LocalLow/Microsoft/CryptnetUrlCache
@@ -49,7 +51,6 @@ convert to sha1
 
 ## ✅ Answer 4621cdc24718ed95bd6271e26b0e28307f159b32
 
-
 ## Q3 What was the original filename of the dumped file?
 ## Q4 → What filename was used for exfiltration to bypass detection?
 
@@ -62,7 +63,6 @@ parse $J, $LogFile, $MFT using `ntfs log tracker`
 
 ## ✅ Answer Q4 → DemonSlayer.mp4
 
-
 ## Q5 → Which tool was used to exfiltrate the file from the host?
 ## Q6 → When did the exfiltration occur (timestamp)?
 
@@ -73,7 +73,6 @@ parse $J, $LogFile, $MFT using `ntfs log tracker`
 ## ✅ Answer Q5 → MEGA
 
 ## ✅ Answer Q6 → 2025–09–21 10:50:28
-
 
 ## finally flag is → CyCTF{certutil_4621cdc24718ed95bd6271e26b0e28307f159b32_ntds.dit_DemonSlayer.mp4_MEGAsync_2025–09–21 10:50:28}
 

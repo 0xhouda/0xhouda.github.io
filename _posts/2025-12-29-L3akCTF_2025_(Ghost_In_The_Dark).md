@@ -3,6 +3,9 @@ title: "L3akCTF_2025_(Ghost_In_The_Dark)"
 date: 2025-12-28 00:00:00
 categories: [CTF_competitions]
 tags: [Disk_Forensics, Medium, Deleted_File]
+image: 
+  path: /assets/img/5/5.jpg
+  in_post: false
 toc: true
 ---
 

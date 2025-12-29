@@ -3,6 +3,9 @@ title: "HackTheBox_Sherlock_Holmes_2025_4:_The_Tunnel_Without_Walls"
 date: 2025-12-28 20:00:00
 categories: [HackTheBox]
 tags: [Memory_Forensics, Hard]
+image: 
+  path: /assets/img/1/1.jpg
+  in_post: false
 toc: true
 ---
 
