@@ -1,5 +1,5 @@
 ---
-tilte: "TJCTF_2025_Steganography_AND_Forensics"
+title: "TJCTF_2025_Steganography_AND_Forensics"
 date: 2025-12-29 00:00:00
 categories: [CTF_competitions]
 tags: [Steganography, Medium,]

@@ -1,5 +1,5 @@
 ---
-tilte: "HiddenInPlainSight_DFIR_Challenge_From_CyCTF{2025}"
+title: "HiddenInPlainSight_DFIR_Challenge_From_CyCTF{2025}"
 date: 2025-12-28 00:00:00
 categories: [CTF_competitions]
 tags: [Disk_Forensics, WMI, Medium]

@@ -1,5 +1,5 @@
 ---
-tilte: "HackTheBox_Sherlock_Holmes_2025_4:_The_Tunnel _Without _Walls"
+title: "HackTheBox_Sherlock_Holmes_2025_4:_The_Tunnel _Without _Walls"
 date: 2025-12-28 20:00:00
 categories: [HackTheBox]
 tags: [Memory_Forensics, Hard]
