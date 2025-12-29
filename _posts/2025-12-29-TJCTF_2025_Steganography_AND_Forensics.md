@@ -53,7 +53,6 @@ after extracting the files you will find a ZIP file protected use password “p0
 
 ## ✅ Answer flag → tjctf{p0lygl0t_r3bb1t_h0l3}
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Challenge 2
 
@@ -88,7 +87,6 @@ with DSStore.open(".DS_Store", "r") as d:
 
 ## ✅ Answer flag → tjctf{ds_store_is_useful?}
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Challenge 3
 
@@ -104,7 +102,6 @@ in this challenge i am usage stegsolver , strings , pngcheck , exiftool , binwal
 
 ## ✅ Answer flag → tjctf{steganography_is_fun}
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## challege 4
 
@@ -178,6 +175,5 @@ ok recover audio file successfully but no thing with out noise i am try open fil
 
 ## ✅ Answer flag → tjctf{THIS-EASTER-EGG-IS-PRETTY-COOL}
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 # Thanks For Reading

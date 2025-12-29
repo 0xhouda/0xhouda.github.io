@@ -20,7 +20,6 @@ use RegRipper tool to analysis SYSTEM hive Register and search in result file to
 
 # answer: 99PHOENIXDOWNS
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q2: What was the SSID of the first Wi-Fi network they connected to?
 
@@ -28,7 +27,6 @@ from winvet Logs file you can found called `Microsoft-Windows-WLAN-AutoConfig%4O
 
 ![Image](/assets/img/6/6_3.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q3:When did they obtain the DHCP lease at the first café?
 
@@ -36,13 +34,11 @@ back to result you got it from RegRipper and search by SSID
 
 ![Image](/assets/img/6/6_4.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q4: What IP address was assigned at the first café?
 
 ![Image](/assets/img/6/6_5.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q5: What GitHub page did they visit at the first café?
 
@@ -54,7 +50,6 @@ check browser database from this path `C\Users\NotVi\AppData\Local\Microsoft\Edg
 
 ![Image](/assets/img/6/6_7.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q7: What was the name of the notes file?
 
@@ -62,7 +57,6 @@ open “ntuser.dat” by Registry Explorer
 
 ![Image](/assets/img/6/6_8.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q8: What are the contents of the notes?
 
@@ -81,7 +75,6 @@ in output file you can show file called “Resident” search in file on “HowT
 
 ![Image](/assets/img/6/6_9.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q9:What was the SSID of the second Wi-Fi network they connected to?
 
@@ -89,19 +82,16 @@ back to result you got it from RegRipper
 
 ![Image](/assets/img/6/6_10.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q10:When did they obtain the second lease?
 
 ![Image](/assets/img/6/6_11.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q11:What was the IP address assigned at the second café?
 
 ![Image](/assets/img/6/6_12.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q12: What website did they log into at the second café?
 
@@ -109,7 +99,6 @@ check Chrome database from this path `C\Users\NotVi\AppData\Local\Google\Chrome\
 
 ![Image](/assets/img/6/6_13.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q13: What was the MAC address of the Wi-Fi adapter used?
 
@@ -117,7 +106,6 @@ back to Q2 file
 
 ![Image](/assets/img/6/6_14.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q14: What city did this take place in?
 
@@ -125,13 +113,11 @@ google is your friends search to AllyCat coffee pleace
 
 ![Image](/assets/img/6/6_15.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## flag 
 
 ![Image](/assets/img/6/6_16.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 # Thanks For Reading
 

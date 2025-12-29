@@ -46,8 +46,6 @@ $ dpkg -x linux-image-5.10.0-35-amd64-dbg_5.10.237-1_amd64.deb .
 
 ## ✅ Answer 5.10.0–35-amd64
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
-
 ## Task2 → The attacker connected over SSH and executed initial reconnaissance commands. What is the PID of the shell they used?
 
 ```bash
@@ -66,8 +64,6 @@ PID     Process CommandTime     Command
 
 ```
 attacker after get initial access run some command to enumerate running process and discovery os version
-
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Task3 → After the initial information gathering, the attacker authenticated as a different user to escalate privileges. Identify and submit that user’s credentials.
 
@@ -91,8 +87,6 @@ open a file and extract the hash and crack it usage wordlist rockyou.txt
 
 ![Image](/assets/img/1/1_3_2.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
-
 ## Task4 → The attacker downloaded and executed code from Pastebin to install a rootkit. What is the full path of the malicious file?
 
 Volatility 3 provides several useful plugins for checking loaded kernel modules such as
@@ -108,8 +102,6 @@ This plugin provides the name of the malicious kernel module and searches the fi
 
 ![Image](/assets/img/1/1_4_2.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
-
 ## Task5 → What is the email account of the alleged author of the malicious file?
 
 Dump the malicious kernel module and inspect it using strings or modinfo after renaming the file with the .ko extension
@@ -118,10 +110,7 @@ Dump the malicious kernel module and inspect it using strings or modinfo after r
 python3 vol.py -f memdump.mem linux.pagecache.InodePages --inode  0x9b3386454a80  --dump
 
 ```
-
 ![Image](/assets/img/1/1_5_1.jpg)
-
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Task6 → The next step in the attack involved issuing commands to modify the network settings and installing a new package. What is the name and PID of the package? (package name,PID)
 
@@ -136,8 +125,6 @@ python3 vol.py -f memdump.mem linux.pslist | grep dnsmasq
 
 ![Image](/assets/img/1/1_6_1.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
-
 ## Task7 → Clearly, the attacker’s goal is to impersonate the entire network. One workstation was already tricked and got its new malicious network configuration. What is the workstation’s hostname?
 
 From the previous task, the attacker installed dnsmasq to simulate or configure a DHCP server and impersonate the entire network. You can check the tool’s man page to identify all related configuration files.
@@ -149,16 +136,11 @@ python3 vol.py -f memdump.mem linux.pagecache.InodePages --inode  0x9b33ac25b8c0
 ```
 ![Image](/assets/img/1/1_7_1.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
-
-
 ## Task8 → After receiving the new malicious network configuration, the user accessed the City of CogWork-1 internal portal from this workstation. What is their username?
 
 You can use Bulk Extractor to extract network traffic from the memory dump and filter the HTTP traffic.
 
 ![Image](/assets/img/1/1_8_1.jpg)
-
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Task9 → TaskFinally, the user updated a software to the latest version, as suggested on the internal portal, and fell victim to a supply chain attack. From which Web endpoint was the update downloaded?
 
@@ -171,10 +153,7 @@ now the attacker can intercept and redirect traffic wherever they want Moreover 
 python3 volatility3/vol.py -f memdump.mem linux.pagecache.InodePages --inode  0x9b339df93420 --dump
 
 ```
-
 ![Image](/assets/img/1/1_9_3.jpg)
-
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Task10 → To perform this attack, the attacker redirected the original update domain to a malicious one. Identify the original domain and the final redirect IP address and port. (domain,IP:port)
 
@@ -192,7 +171,5 @@ However, this is not the final redirection. From the Bash history, you can see t
 ## ✅ Answer updates.cogwork-1.net,13.62.49.86:7477
 
 ![Image](/assets/img/1/1_f.jpg)
-
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 # thanks for reading

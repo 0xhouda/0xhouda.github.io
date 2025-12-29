@@ -60,7 +60,6 @@ pass = 4MLGng2nuSQHu1vuY_yZYJKIRuggpN1oaaufD7d8QbsWZY1q
 
  ```
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## TNKR.2
 
@@ -143,7 +142,6 @@ pass = 4MLGng2nuSQHu1vuY_yZYJKIRuggpN1oaaufD7d8QbsWZY1q
 flag is: {104.21.76.201,mega.nz}
 ```
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 # Thanks For Reading
 

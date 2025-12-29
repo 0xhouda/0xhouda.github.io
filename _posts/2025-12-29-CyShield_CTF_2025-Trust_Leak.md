@@ -26,13 +26,11 @@ Q6 → When did the exfiltration occur (timestamp)? Note: provide only tool name
 
 CyCTF{tool_sha1(url)_secret.txt_secret2.txt_tool_YYYY-MM-DD HH:MM:SS}
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q1 → Which tool was used to drop the executable onto the host?
 
 ![Image](/assets/img/2/2_1.jpg)
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q2 → What is the SHA-1 hash of the link that was used to drop the executable?
 
@@ -51,7 +49,6 @@ convert to sha1
 
 ## ✅ Answer 4621cdc24718ed95bd6271e26b0e28307f159b32
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q3 What was the original filename of the dumped file?
 ## Q4 → What filename was used for exfiltration to bypass detection?
@@ -65,7 +62,6 @@ parse $J, $LogFile, $MFT using `ntfs log tracker`
 
 ## ✅ Answer Q4 → DemonSlayer.mp4
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## Q5 → Which tool was used to exfiltrate the file from the host?
 ## Q6 → When did the exfiltration occur (timestamp)?
@@ -78,7 +74,6 @@ parse $J, $LogFile, $MFT using `ntfs log tracker`
 
 ## ✅ Answer Q6 → 2025–09–21 10:50:28
 
-<p align="center">🔹🔹🔹🔹🔹🔹</p>
 
 ## finally flag is → CyCTF{certutil_4621cdc24718ed95bd6271e26b0e28307f159b32_ntds.dit_DemonSlayer.mp4_MEGAsync_2025–09–21 10:50:28}
 
