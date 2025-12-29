@@ -1,5 +1,5 @@
 ---
-title: "HackTheBox_Sherlock_Holmes_2025_4:_The_Tunnel _Without _Walls"
+title: "HackTheBox_Sherlock_Holmes_2025_4:_The_Tunnel_Without_Walls"
 date: 2025-12-28 20:00:00
 categories: [HackTheBox]
 tags: [Memory_Forensics, Hard]
@@ -75,8 +75,8 @@ from previous task we can found attacker start a docker container /etc/ file to 
 
 and `grep json.log` you can found a lot of file but when compare timestamp by timestamp in bash.history you can determine a correct file
 
-![Image](assets/img/1/1_3_1.jpg)
-![Image](assets/img/1/1_3_2.jpg)
+![Image](/assets/img/1/1_3_1.jpg)
+![Image](/assets/img/1/1_3_2.jpg)
 ```bash
 0x9b33882a9000  /       8:1     1053804 0x9b3386436f80  REG     1       1       -rw-r-----      2025-09-03 08:17:30.003030 UTC  2025-09-03 08:18:08.715033 UTC  2025-09-03 08:18:08.715033 UTC  /var/lib/docker/containers/a1a73e71a21b324a37f3d02eaf3d15514898078716c13ab60b8f12adf21e4a5b/a1a73e71a21b324a37f3d02eaf3d15514898078716c13ab60b8f12adf21e4a5b-json.log  391
 
@@ -89,7 +89,7 @@ python3 vol.py -f memdump.mem linux.pagecache.InodePages --inode  0x9b3386436f80
 ```
 open a file and extract the hash and crack it usage wordlist rockyou.txt
 
-![Image](assets/img/1/1_3_2.jpg)
+![Image](/assets/img/1/1_3_2.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -102,11 +102,11 @@ python3 vol.py -f memdump.mem linux.malware.hidden_modules
 
 ```
 
-![Image](assets/img/1/1_4_1.jpg)
+![Image](/assets/img/1/1_4_1.jpg)
 
 This plugin provides the name of the malicious kernel module and searches the file dump to retrieve its full path.
 
-![Image](assets/img/1/1_4_2.jpg)
+![Image](/assets/img/1/1_4_2.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -119,7 +119,7 @@ python3 vol.py -f memdump.mem linux.pagecache.InodePages --inode  0x9b3386454a80
 
 ```
 
-![Image](assets/img/1/1_5_1.jpg)
+![Image](/assets/img/1/1_5_1.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -127,14 +127,14 @@ python3 vol.py -f memdump.mem linux.pagecache.InodePages --inode  0x9b3386454a80
 
 Check the Bash history — you may find that the attacker installed the ‘dnsmasq’ package. Then enumerate the process list to obtain the process PID.
 
-![Image](assets/img/1/1_6_1.jpg)
+![Image](/assets/img/1/1_6_1.jpg)
 
 ```bash
 python3 vol.py -f memdump.mem linux.pslist | grep dnsmasq
 
 ```
 
-![Image](assets/img/1/1_6_1.jpg)
+![Image](/assets/img/1/1_6_1.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -147,7 +147,7 @@ Search for the `dnsmasq.leases` file and dump it.
 python3 vol.py -f memdump.mem linux.pagecache.InodePages --inode  0x9b33ac25b8c0 --dump
 
 ```
-![Image](assets/img/1/1_7_1.jpg)
+![Image](/assets/img/1/1_7_1.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -156,7 +156,7 @@ python3 vol.py -f memdump.mem linux.pagecache.InodePages --inode  0x9b33ac25b8c0
 
 You can use Bulk Extractor to extract network traffic from the memory dump and filter the HTTP traffic.
 
-![Image](assets/img/1/1_8_1.jpg)
+![Image](/assets/img/1/1_8_1.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -164,15 +164,15 @@ You can use Bulk Extractor to extract network traffic from the memory dump and f
 
 now the attacker can intercept and redirect traffic wherever they want Moreover the Bash history indicates that the attacker spawned a second Docker container after installing dnsmasq and interacting with iptables
 
-![Image](assets/img/1/1_9_1.jpg)
-![Image](assets/img/1/1_9_2.jpg)
+![Image](/assets/img/1/1_9_1.jpg)
+![Image](/assets/img/1/1_9_2.jpg)
 
 ```bash
 python3 volatility3/vol.py -f memdump.mem linux.pagecache.InodePages --inode  0x9b339df93420 --dump
 
 ```
 
-![Image](assets/img/1/1_9_3.jpg)
+![Image](/assets/img/1/1_9_3.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -180,18 +180,18 @@ python3 volatility3/vol.py -f memdump.mem linux.pagecache.InodePages --inode  0x
 
 The attacker can control the traffic after installing dnsmasq. Check the configuration files to determine where the attacker is redirecting the traffic
 
-![Image](assets/img/1/1_10_1.jpg)
-![Image](assets/img/1/1_10_2.jpg)
+![Image](/assets/img/1/1_10_1.jpg)
+![Image](/assets/img/1/1_10_2.jpg)
 
 However, this is not the final redirection. From the Bash history, you can see that the attacker created a default.conf file in the /tmp directory and removed it after running the Docker container
 
-![Image](assets/img/1/1_10_3.jpg)
-![Image](assets/img/1/1_10_4.jpg)
-![Image](assets/img/1/1_10_5.jpg)
+![Image](/assets/img/1/1_10_3.jpg)
+![Image](/assets/img/1/1_10_4.jpg)
+![Image](/assets/img/1/1_10_5.jpg)
 
 ## ✅ Answer updates.cogwork-1.net,13.62.49.86:7477
 
-![Image](assets/img/1/1_f.jpg)
+![Image](/assets/img/1/1_f.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 

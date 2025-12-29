@@ -9,7 +9,7 @@ toc: true
  
 ## Ghost In The Dark
 
-![Image](assets/img/5/5_1.jpg)
+![Image](/assets/img/5/5_1.jpg)
 
 After download artifact from [this link](https://drive.google.com/file/d/1HZruZhvDAGLWDE9kFMBC4Pu8tSnfkOEJ/view)
 
@@ -17,7 +17,7 @@ While I was reading the challenge description, one important point caught my att
 
 open file in Autopsy
 
-![Image](assets/img/5/5_2.jpg)
+![Image](/assets/img/5/5_2.jpg)
 
 You can find a PowerShell script in a deleted file named “loader.ps1.”
 save it and open in editor
@@ -139,7 +139,7 @@ You might notice that this is a ransomware script—it encrypts files and delete
 
 But first, extract “flag.enc” from the disk image.
 
-![Image](assets/img/5/5_3.jpg)
+![Image](/assets/img/5/5_3.jpg)
 
 ```python
 
@@ -161,7 +161,7 @@ print(plaintext.decode())
 
 finally we got the flag
 
-![Image](assets/img/5/5_4.jpg)
+![Image](/assets/img/5/5_4.jpg)
 
 # Thanks For Reading
 

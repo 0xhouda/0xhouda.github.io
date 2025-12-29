@@ -30,7 +30,7 @@ CyCTF{tool_sha1(url)_secret.txt_secret2.txt_tool_YYYY-MM-DD HH:MM:SS}
 
 ## Q1 → Which tool was used to drop the executable onto the host?
 
-![Image](assets/img/2/2_1.jpg)
+![Image](/assets/img/2/2_1.jpg)
 
 <p align="center">🔹🔹🔹🔹🔹🔹</p>
 
@@ -58,7 +58,7 @@ convert to sha1
 
 parse $J, $LogFile, $MFT using `ntfs log tracker`
 
-![Image](assets/img/2/2_3.jpg)
+![Image](/assets/img/2/2_3.jpg)
 
 
 ## ✅ Answer Q3 → ntds.dit
@@ -72,7 +72,7 @@ parse $J, $LogFile, $MFT using `ntfs log tracker`
 
 \triage\C\Users\Administrator\AppData\Local\Mega Limited\MEGAsync\logs
 
-![Image](assets/img/2/2_3.jpg)
+![Image](/assets/img/2/2_3.jpg)
 
 ## ✅ Answer Q5 → MEGA
 

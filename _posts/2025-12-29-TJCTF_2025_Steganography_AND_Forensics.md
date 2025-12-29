@@ -18,7 +18,7 @@ toc: true
 
 ## Challenge 1:
 
-![Image](assets/img/7/7_1.jpg)
+![Image](/assets/img/7/7_1.jpg)
 
 just open the photo there’s nothing interesting
 use exiftool to check metadata
@@ -28,12 +28,12 @@ exiftool chall.png
 
 ```
 
-![Image](assets/img/7/7_2.jpg)
+![Image](/assets/img/7/7_2.jpg)
 
 ok found password encoding base64 decode that and follow me
 use `binwalk` to scan embedded file in Chall.png
 
-![Image](assets/img/7/7_3.jpg)
+![Image](/assets/img/7/7_3.jpg)
 
 you can use `binwalk` OR `formost` to extract this file by following command
 
@@ -49,7 +49,7 @@ foremost chall.png
 
 after extracting the files you will find a ZIP file protected use password “p0lygl0tp3ssw0rd” to extract files , now you have i a new archived file .gz contain a secret file
 
-![Image](assets/img/7/7_4.jpg)
+![Image](/assets/img/7/7_4.jpg)
 
 ## ✅ Answer flag → tjctf{p0lygl0t_r3bb1t_h0l3}
 
@@ -57,7 +57,7 @@ after extracting the files you will find a ZIP file protected use password “p0
 
 ## Challenge 2
 
-![Image](assets/img/7/7_5.jpg)
+![Image](/assets/img/7/7_5.jpg)
 
 challenge.zip contain a .DS_store file and data in this file encoded by base64 i think python is useful in this challenge
 
@@ -84,7 +84,7 @@ with DSStore.open(".DS_Store", "r") as d:
 
 ```
 
-![Image](assets/img/7/7_6.jpg)
+![Image](/assets/img/7/7_6.jpg)
 
 ## ✅ Answer flag → tjctf{ds_store_is_useful?}
 
@@ -92,15 +92,15 @@ with DSStore.open(".DS_Store", "r") as d:
 
 ## Challenge 3
 
-![Image](assets/img/7/7_7.jpg)
+![Image](/assets/img/7/7_7.jpg)
 
 suspicious.png
 
-![Image](assets/img/7/7_8.jpg)
+![Image](/assets/img/7/7_8.jpg)
 
 in this challenge i am usage stegsolver , strings , pngcheck , exiftool , binwalk , but zsteg will be useful
 
-![Image](assets/img/7/7_9.jpg)
+![Image](/assets/img/7/7_9.jpg)
 
 ## ✅ Answer flag → tjctf{steganography_is_fun}
 
@@ -108,7 +108,7 @@ in this challenge i am usage stegsolver , strings , pngcheck , exiftool , binwal
 
 ## challege 4
 
-![Image](assets/img/7/7_10.jpg)
+![Image](/assets/img/7/7_10.jpg)
 
 in this challenge we have a 2 file png and python i am open enc.py to know what is doing
 
@@ -174,7 +174,7 @@ print(f"[+] Extracted WAV saved as: {output_filename}")
 
 ok recover audio file successfully but no thing with out noise i am try open file in sonic visualizer and add spectrogram layer in file, great i am got the flag
 
-![Image](assets/img/7/7_11.jpg)
+![Image](/assets/img/7/7_11.jpg)
 
 ## ✅ Answer flag → tjctf{THIS-EASTER-EGG-IS-PRETTY-COOL}
 
