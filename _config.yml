@@ -63,12 +63,12 @@ webmaster_verifications:
 #  umami:
 #    id: 02218faf-eb85-4671-8d7a-fa56c6b15017
 #    domain: https://cloud.umami.is
-analytics:
-  goatcounter:
-    id: 0xhouda
+#analytics:
+#  goatcounter:
+#    id: 0xhouda
 
-pageviews:
-  provider: goatcounter
+#pageviews:
+#  provider: goatcounter
 
 
 # Page views settings
