@@ -227,3 +227,10 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+html_proofer:
+  allow-hash-href: true
+  ignore_urls:
+    - 'https://drive.google.com'
+    - 'https://packages.debian.org'
+    - 'https://github.com'
+    - 'https://hubchallenges.s3.eu-west-1.amazonaws.com'
