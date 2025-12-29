@@ -60,6 +60,9 @@ webmaster_verifications:
 
 # Web Analytics Settings
 analytics:
+  umami:
+    id: 02218faf-eb85-4671-8d7a-fa56c6b15017   # حط الـ ID بتاعك هنا
+    domain: 0xhouda.github.io
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
