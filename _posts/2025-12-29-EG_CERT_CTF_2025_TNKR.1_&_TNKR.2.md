@@ -12,6 +12,7 @@ toc: true
 
 The goal of this challenge is to analyze a provided archive containing system artifacts and determine:
 
+
 What command-line entry was used as an indicator of initial access.
 The email address the attacker used when logging in via an RMM tool suspected of being used for data exfiltration.
 Flag Format : EGCTF{xyz}
