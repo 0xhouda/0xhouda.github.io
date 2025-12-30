@@ -2,7 +2,7 @@
 title: "SOC_Home_Lab_configruation"
 date: 2025-12-29 00:00:00
 categories: [SOC_Home_Lab]
-tags: [SOC_Home_Lab]
+tags: [SOC_Home_Lab,Splunk]
 image: 
   path: /assets/doc/1.jpg
   in_post: false
