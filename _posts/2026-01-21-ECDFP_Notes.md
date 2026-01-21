@@ -4,7 +4,7 @@ date: 2026-01-21 00:00:00
 categories: [ECDFP_Notes]
 description: "ECDFP notes covering disk forensics fundamentals, CHS/LBA addressing, MBR and GPT structures, boot records, and partition analysis with practical hex examples."
 description_in_post: false
-tags: [Disk_Forensics,DFIR,Notes]
+tags: [Disk_Forensics,DFIR]
 image: 
   path: /assets/img/10/0.png
   in_post: false
@@ -180,6 +180,18 @@ offset is LBA 1
 
 ![Image](/assets/img/10/14.png)<br>
 ![Image](/assets/img/10/15.png)<br>
+## <span class="blue">examble:</span>
+![Image](/assets/img/10/17.png)<br>
+
+you can show the partition entry start from offset 1024<br>
+
+- 1024-1039 <span class="red">--></span> partition type GUID ` 28 73 2a c1 1f f8 d2 11 ba 4b 00 a0 c9 3e c9 3b ` = `c12a7328-f81f-11d2-ba4d-00a0c93ec93b` this type GUID = EFI system partition<br>
+- 1040-1055 <span class="red">--></span> This GUID uniquely identifies the partition on the disk = ` 70 0d 04 f1 7e 36 bb 4a a1 d9 b6 30 30 02 8a 06 ` = `f1040d70-367e-a14a-d9b6-3030028a06`<br>
+- 1056-1063 <span class="red">--></span> = starting LBA = `0x800` = 2048 <br>
+- 1064-1071 <span class="red">--></span> = ending LBA = `0x327ff` = 206,847 <br>
+- 1072-1079 <span class="red">--></span> = flag is null
+- 1080-1151 <span class="red">--></span> = partition name = `EFI System Partition`
+
 
 ## <span class="blue">Hidden Protected Area (HPA) && Device Configuration Overlay (DCO)</span>
 
